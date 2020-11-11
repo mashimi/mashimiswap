@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={logo} height={120} />}
-        title="Mashimi Swap"
-        subtitle="Stake Mashimi LP tokens to claim your very own yummy MASH!"
+        title="Greedy Swap"
+        subtitle="Stake Greedy LP tokens to claim your very own GREEDY!"
       />
 
       <Container>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: MASH-ETH LP token pool yields 4.8x more token
+        🏆<b>Pro Tip</b>: GREEDY-ETH LP token pool yields 4.8x more token
         rewards per block.
       </StyledInfo>
       <Spacer size="lg" />

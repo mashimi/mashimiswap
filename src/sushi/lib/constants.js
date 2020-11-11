@@ -74,18 +74,18 @@ SLP Address on mainnet for reference
 
 // export const supportedPools = [
 //   {
-//     pid: 12,
+//    pid: 1,
 //     lpAddresses: {
-//       1: '0x795065dCc9f64b5614C407a6EFDC400DA6221FB0',
+//       4: '0x78ab2e85eaf22dc7b6981e54432e17521bdadc23',
 //     },
 //     tokenAddresses: {
-//       1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+//      4: '0x4dbcdf9b62e891a7cec5a2568c3f4faf9e8abe2b',
 //     },
-//     name: 'Sushi Party!',
-//     symbol: 'SUSHI-ETH SLP',
-//     tokenSymbol: 'SUSHI',
+//     name: 'Greedy Party!',
+//     symbol: 'USD-ETH LP',
+  //   tokenSymbol: 'USD',
 //     icon: '🍣',
-//   },
+//  },
 //   {
 //     pid: 18,
 //     lpAddresses: {
@@ -97,20 +97,20 @@ SLP Address on mainnet for reference
 //     name: 'UNI Unicorn',
 //     symbol: 'UNI-ETH SLP',
 //     tokenSymbol: 'UNI',
-//     icon: '🦄',
+//     icon: '',
 //   },
 //   {
-//     pid: 0,
+//    pid: 0,
 //     lpAddresses: {
-//       1: '0x06da0fd433C1A5d7a4faa01111c044910A184553',
+//       4: '0x78ab2e85eaf22dc7b6981e54432e17521bdadc23',
 //     },
 //     tokenAddresses: {
-//       1: '0xdac17f958d2ee523a2206206994597c13d831ec7',
+//       4: '0x4dbcdf9b62e891a7cec5a2568c3f4faf9e8abe2b',
 //     },
 //     name: 'Tether Turtle',
-//     symbol: 'USDT-ETH SLP',
-//     tokenSymbol: 'USDT',
-//     icon: '🐢',
+//     symbol: 'USDC-ETH LP',
+//     tokenSymbol: 'USDC',
+//   icon: '🐢',
 //   },
 //   {
 //     pid: 1,
@@ -396,7 +396,7 @@ SLP Address on mainnet for reference
 //    name: "Chef's Menu",
 //    symbol: 'wNXM-ETH SLP',
 //    tokenSymbol: 'wNXM',
-//    icon: '👨🏻‍🍳',
+//    icon: '‍🌕',
 //  },
 //  {
 //    pid: 25,
@@ -448,7 +448,7 @@ SLP Address on mainnet for reference
 //    name: "Chef's Menu",
 //    symbol: 'renBTC-WBTC SLP',
 //    tokenSymbol: 'renBTC',
-//    icon: '👨🏻‍🍳',
+//    icon: '',
 //  },
 // ]
 
@@ -456,7 +456,7 @@ SLP Address on mainnet for reference
 
 
 
-// MashimiSwap SETTINGS
+// GreedySwap SETTINGS
 
 export const CHAIN_ID = 4
 
@@ -486,11 +486,38 @@ export const supportedPools = [
     tokenAddresses: {
       4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // Token, i.e. "DAI"
     },
-    name: 'Juice Party!',
+    name: 'Greedy Party!',
     symbol: 'DAI-ETH LP',
     tokenSymbol: 'DAI',
-    icon: '🍊',
+    icon: '💰',
   },
+{
+     pid: 1,
+      lpAddresses: {
+        4: '0x78ab2e85eaf22dc7b6981e54432e17521bdadc23',
+      },
+      tokenAddresses: {
+        4: '0x4dbcdf9b62e891a7cec5a2568c3f4faf9e8abe2b',
+      },
+      name: 'West Gorillaz',
+      symbol: 'USDC-ETH LP',
+      tokenSymbol: 'USDC',
+    icon: '🦍',
+    },
+
+    {
+     pid: 2,
+      lpAddresses: {
+        4: '0x937959382d811bd84463b3d1d221fa093930dd05',
+      },
+      tokenAddresses: {
+        4: '0x577d296678535e4903d59a4c929b718e1d575e0a',
+      },
+      name: 'East Gorillaz',
+      symbol: 'WBTC-ETH LP',
+      tokenSymbol: 'WBTC',
+    icon: '🦍',
+    },
+
+
 ]
-
-

@@ -6,27 +6,25 @@ const Nav: React.FC = () => {
     <StyledNav>
       <StyledLink
         target="_blank"
-        href="#"
+        href="https://rinkeby.etherscan.io/address/0x09D6425269d4993B3657EF7A5B8A7F1E1837be8a"
       >
-        MashimiMaster Contract
+        GreedyMaster Contract
       </StyledLink>
-      {/*<StyledLink
+      {<StyledLink
         target="_blank"
-        href="https://uniswap.info/pair/0xce84867c3c02b05dc570d0135103d3fb9cc19433"
-      >
-        SushiSwap SUSHI-ETH
-      </StyledLink> */}
-      <StyledLink target="_blank" href="#">
+        href="https://rinkeby.etherscan.io/address/0x09D6425269d4993B3657EF7A5B8A7F1E1837be8a"
+      > 
+      </StyledLink>}
+      <StyledLink target="_blank" href="">
         Discord
       </StyledLink>
       <StyledLink target="_blank" href="#">
         Github
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="https://github.com/mashimi">
         Twitter
       </StyledLink>
-      <StyledLink target="_blank" href="#">
-        Medium
+      <StyledLink target="_blank" href="https://twitter.com/leonardmashimi"> 
       </StyledLink>
     </StyledNav>
   )
